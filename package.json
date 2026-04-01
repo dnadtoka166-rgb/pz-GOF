@@ -1,0 +1,35 @@
+{
+  "name": "pz-gof",
+  "version": "1.0.0",
+  "description": "> У цьому занятті студенти отримують практичний досвід імплементації класичних патернів проєктування (GoF — Gang of Four).  \r > Мета — навчитися застосовувати породжувальні, структурні та поведінкові патерни для покращення архітектури програмних рішень.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "factory": "ts-node src/creational/factory-method/index.ts",
+    "builder": "ts-node src/creational/builder/index.ts",
+    "adapter": "ts-node src/structural/adapter/index.ts",
+    "decorator": "ts-node src/structural/decorator/index.ts",
+    "strategy": "ts-node src/behavioral/strategy/index.ts",
+    "observer": "ts-node src/behavioral/observer/index.ts",
+    "command": "ts-node src/behavioral/command/index.ts",
+    "singleton": "ts-node src/creational/singleton/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandr00V/pz-GOF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandr00V/pz-GOF/issues"
+  },
+  "homepage": "https://github.com/Aleksandr00V/pz-GOF#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
